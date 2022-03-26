@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta charset="UTF-8">
+        <meta name="description" content="Debe contener las palabras clave, tratar de atraer clicks y de longitud entre 150 y 160 caracteres">
+        <link rel="stylesheet" href="pokestyle.css"/>
+        <link rel="shortcut icon" href="src/Pokeball.png" type="image/x-icon">
+        <title> Pokedex </title>
+    </head>
+
+    <div id="contenedor">
+     
+     <body>
+        <div class="pokeflex">
+        
+            <div class="top" >
+                <input type="text" placeholder="Pokemon!" id="pokename" name="pokename">
+                <button onclick="fetchPokemon()">Buscar</button>
+            </div>
+            <div class="img" ><img src="src/Gif.gif"  alt="Bienvenido Entrenador!" id="pokeIMG"></div>
+             <div class="stacs1">
+                 <label id="numpoke"></label> &nbsp; <label id="namepoke"></label>
+            </div>
+            <div class="stacs2">
+                <div>Hht:<label id="tipo1"></label></div>
+                <div>Wht:<label id="tipo2"></label></div>
+                <div>XP:<label id="tipo4"></label></div>
+            </div>
+            <div class="estadisticas">
+                Stats:<br><label id="tipo3"></label>
+            </div>
+            <div class="tipo5">
+                Type:<br><label id="tipo5" ></label>
+            </div>
+        </div>
+     </body>
+        <footer>
+            <script src="pokefun.js"></script>
+        </footer>
+    </div>
+</html>
